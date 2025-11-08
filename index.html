@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./java.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+    <style>
+        /* Remove as setas do input type number */
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            /* Remove o estilo padrão no Chrome/Safari */
+            margin: 0;
+            /* Remove a margem */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imagem-dado">
+        <img src="./img/Design sem nome.png">
+    </div>
+    <div class="caixa-textos">
+        <h1>Dev-Sorteio</h1>
+        <h2>Selecione o valor:</h2>
+    </div>
+    <div class="caixa-input">
+        <input type="number" class="input-1" placeholder="min:">
+        <input type="number" class="input-2" placeholder="max:">
+    </div>
+    <div class="caixa-botao">
+        <button>Sortear</button>
+    </div>
+</body>
+
+</html>
