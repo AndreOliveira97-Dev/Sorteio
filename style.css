@@ -7,7 +7,7 @@
 .imagem-dado {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 body {
     background-color: black;
@@ -69,6 +69,13 @@ button:hover {
 .caixa-botao {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 7px;
+}
+.result {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 100px;
 }
 
